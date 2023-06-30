@@ -1,11 +1,12 @@
-Create a virtual environment
-
+Create a virtual environment "env"
+```
 py -m venv env
-
+```
 Activate the virtual environment
-
+```
 .\env\Scripts\activate
-
-Create requirements.txt
-
-pip3 freeze > requirements.txt
+```
+Install requirements
+```
+pip install -r requirements.txt
+```
