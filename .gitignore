@@ -2,6 +2,7 @@
 !src/
 !.gitignore
 !README.md
+!requirements.txt
 src/detectron2
 src/datasets_helper
 src/lightning_logs
