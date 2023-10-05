@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -28,7 +30,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Robertus0`, `TFG`, `twitter_handle`, `roberto-manresa`, `email_client`, `email`, `project_title`, `project_description`
+The objective of this work is to use Deep Learning techniques to detect illegal swimming pools in aerial images, improving efficiency and reducing the costs associated with their identification. To achieve this, fine-tuning of the Transformer DETR model has been carried out using a dataset of aerial images from Catalonia. The results demonstrate the effectiveness of the system in accurately detecting swimming pools, although it faces challenges in detecting partially visible pools as well as smaller pools. This work contributes to the advancement of illegal swimming pool detection by offering a promising alternative to optimize the processes of identification and control of these infrastructures.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -51,39 +53,26 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-  Create a virtual environment "env"
-  ```
-  py -m venv env
-  ```
-  Activate the virtual environment
-  ```
-  .\env\Scripts\activate
-  ```
-  Install requirements
-  ```
-  pip install -r requirements.txt
-  ```
 
 ### Installation
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
-   ```sh
-   git clone https://github.com/Robertus0/TFG.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+  ```
+  git clone https://github.com/Robertus0/TFG.git
+  ```
+3. Create a virtual environment "env"
+  ```
+  py -m venv env
+  ```
+4. Activate the virtual environment
+  ```
+  .\env\Scripts\activate
+  ```
+5. Install requirements
+  ```
+  pip install -r requirements.txt
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,19 +81,24 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The usage of this proyect is to identify pools in aerial images, you can pass an image and it will return the location of each and every pool in the image.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<p align="center">
+  <img src="https://github.com/Robertus0/TFG/assets/80832973/6583606d-8241-41d8-b07c-1d02b744bb6a"/>
+  <img src="https://github.com/Robertus0/TFG/assets/80832973/b78b4a7c-7c10-4842-a51c-e7bfbb006e40"/>
+</p>
+
+For that objective, I used a database extracted from [ICGC](https://www.icgc.cat/) that I prepared and uploaded to [roboflow](https://universe.roboflow.com/student-of-the-universitat-autonoma-de-barcelona/pools-detector/browse) to train, validation and test.
+
+To train a model refer to the Train notebook. For inference to the Evaluation notebook.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the Creative Commons License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
