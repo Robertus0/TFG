@@ -28,8 +28,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 The objective of this work is to use Deep Learning techniques to detect illegal swimming pools in aerial images, improving efficiency and reducing the costs associated with their identification. To achieve this, fine-tuning of the Transformer DETR model has been carried out using a dataset of aerial images from Catalonia. The results demonstrate the effectiveness of the system in accurately detecting swimming pools, although it faces challenges in detecting partially visible pools as well as smaller pools. This work contributes to the advancement of illegal swimming pool detection by offering a promising alternative to optimize the processes of identification and control of these infrastructures.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
