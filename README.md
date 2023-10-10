@@ -7,16 +7,9 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
@@ -27,8 +20,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+<a name="about-the-project"></a>
 
-The objective of this work is to use Deep Learning techniques to detect illegal swimming pools in aerial images, improving efficiency and reducing the costs associated with their identification. To achieve this, fine-tuning of the Transformer DETR model has been carried out using a dataset of aerial images from Catalonia. The results demonstrate the effectiveness of the system in accurately detecting swimming pools, although it faces challenges in detecting partially visible pools as well as smaller pools. This work contributes to the advancement of illegal swimming pool detection by offering a promising alternative to optimize the processes of identification and control of these infrastructures.
+The objective of this work is to use Deep Learning techniques to detect illegal swimming pools in aerial images, improving efficiency and reducing the costs associated with their identification. 
+
+To achieve this, fine-tuning of the Transformer DETR model has been carried out using a dataset of aerial images from Catalonia. 
+
+The results demonstrate the effectiveness of the system in accurately detecting swimming pools. This work contributes to the advancement of illegal swimming pool detection by offering a promising alternative to optimize the processes of identification and control of these infrastructures.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -44,13 +42,9 @@ The objective of this work is to use Deep Learning techniques to detect illegal 
 
 <!-- GETTING STARTED -->
 ## Getting Started
+<a name="getting-started"></a>
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
 
 ### Installation
 
@@ -78,6 +72,7 @@ This is an example of how to list things you need to use the software and how to
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+<a name="usage"></a>
 
 The usage of this proyect is to identify pools in aerial images, you can pass an image and it will return the location of each and every pool in the image.
 
@@ -88,13 +83,14 @@ The usage of this proyect is to identify pools in aerial images, you can pass an
 
 For that objective, I used a database extracted from [ICGC](https://www.icgc.cat/) that I prepared and uploaded to [roboflow](https://universe.roboflow.com/student-of-the-universitat-autonoma-de-barcelona/pools-detector/browse) to train, validation and test.
 
-To train a model refer to the Train notebook. For inference to the Evaluation notebook.
+To train a model refer to the Train notebook.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- LICENSE -->
 ## License
+<a name="license"></a>
 
 Distributed under the Creative Commons License. See `LICENSE.txt` for more information.
 
